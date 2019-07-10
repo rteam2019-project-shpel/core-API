@@ -4,7 +4,7 @@
     "description": "Core user-facing API for SHPEL",
     "main": "app.js",
     "scripts": {
-        "test": "jest"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",

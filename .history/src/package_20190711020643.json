@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "description": "Core user-facing API for SHPEL",
     "main": "app.js",
-    "scripts": {
+    "script": {
+        "start": "node app.js",
         "test": "jest"
     },
     "repository": {

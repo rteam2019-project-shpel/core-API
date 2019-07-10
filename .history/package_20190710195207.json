@@ -4,7 +4,8 @@
     "description": "Core user-facing API for SHPEL",
     "main": "app.js",
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "start": "src/server/app.js"
     },
     "repository": {
         "type": "git",
@@ -17,6 +18,7 @@
     },
     "homepage": "https://github.com/rteam2019-project-shpel/core-api#readme",
     "dependencies": {
+        "eslint": "^6.0.1",
         "express": "^4.17.1"
     },
     "devDependencies": {
