@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /usr/bin/yarn install
+  /usr/bin/node /usr/share/yarn/bin/yarn.js install --link-duplicates
 
 PATH: 
   /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: EACCES: permission denied, mkdir '/home/artiom/core-api/node_modules/@jest/core/node_modules'
+  Error: EACCES: permission denied, mkdir '/home/artiom/core-api/node_modules/define-property/node_modules/kind-of'
 
 npm manifest: 
   {
