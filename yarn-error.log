@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn install
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.6.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/home/artiom/core-api/node_modules/@jest/core/node_modules'
+
+npm manifest: 
+  {
+      "name": "core-api",
+      "version": "1.0.0",
+      "description": "Core user-facing API for SHPEL",
+      "main": "app.js",
+      "scripts": {
+          "test": "jest"
+      },
+      "repository": {
+          "type": "git",
+          "url": "git+https://github.com/rteam2019-project-shpel/core-api.git"
+      },
+      "author": "",
+      "license": "ISC",
+      "bugs": {
+          "url": "https://github.com/rteam2019-project-shpel/core-api/issues"
+      },
+      "homepage": "https://github.com/rteam2019-project-shpel/core-api#readme",
+      "dependencies": {
+          "express": "^4.17.1"
+      },
+      "devDependencies": {
+          "jest": "^24.8.0"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
